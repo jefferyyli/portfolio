@@ -1,0 +1,359 @@
+@import url('https://fonts.googleapis.com/css?family=Rubik:300,300i,400,400i,500,500i,700,700i');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i');
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
+/* Type */
+
+h1.heroHead {
+	font-family: "Rubik", sans-serif;
+	font-size: 3.3em;
+	font-weight: 500;
+	color: #5DC3C9;
+    margin-bottom: 0;
+    margin-top: 225px;
+}
+
+h1.portfolioTitle {
+	font-family: "Rubik", sans-serif;
+	font-size: 2em;
+	color: #4F4F4F;
+	font-weight: 400;
+    margin-top: 3.5em;
+    margin-bottom: 0.3em;
+}
+
+h1.projectTitle {
+	font-family: "Rubik", sans-serif;
+	font-size: 2.8em;
+	font-weight: 400;
+	color: #4F4F4F;
+	margin-bottom: 0;
+	margin-top: 2.5em;
+}
+
+h2.homeTitle {
+	font-family: "Rubik", sans-serif;
+	color: #414141;
+    font-weight: 500;
+    font-size: 2em;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+h2.projectTitle {
+	font-family: "Rubik", sans-serif;
+	margin-bottom: 0;
+    margin-top: 0;
+    font-weight: 400;
+    font-size: 1.65em;
+	color: #414141;
+}
+
+h3.about {
+	color: #A2D5D8;
+	font-size: .8em;
+	font-family: 'Rubik', sans-serif;
+	font-weight: 500;
+}
+
+h3.projectSubtitle {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1.1em;
+	font-weight: 100;
+	margin-top: 0.5em;
+	margin-bottom: 1.5em;
+}
+
+h3.project-title {
+	font-family: "Rubik", sans-serif;
+	font-size: 2.25em;
+	font-weight: 400;
+	margin-bottom: 0.75em;
+}
+
+h3.proj-subtitle {
+	font-family: "Open Sans", sans-serif;
+	font-size: 1.5em;
+	font-weight: 400;
+}
+
+h4.subtitle {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 100;
+	font-size: 1em;
+	color: #9A9A9A;
+	 margin-top: 0;
+    margin-bottom: 3.2em;
+}
+
+h4.subtitle2 {
+	font-family: "Open Sans", sans-serif;
+	font-size: 1.25em;
+	font-weight: 400;
+	margin-bottom: 0.4em;
+	color: #414141;
+}
+
+h4.projectDate {
+    font-family: "Rubik", sans-serif;
+    font-size: 1em;
+    font-weight: 100;
+    color: #9A9A9A;
+    margin-top: 0.5em;
+    margin-bottom: 2em;
+}
+
+
+p {
+	font-family: 'Open Sans', sans-serif;
+}
+
+p.caption {
+    font-size: 0.75em;
+    font-weight: 100;
+    margin: 0 0 3.8em 0;
+    color: #8e8e8e;
+    text-align: center;
+    line-height: 1.8em;
+}
+
+p.homeBody {
+	color: #414141;
+    font-weight: 100;
+    margin-top: 10px;
+}
+
+p.heroBody {
+	font-size: 1em;
+	font-weight: 100;
+	color: #9A9A9A;
+}
+
+p.infoA {
+	font-weight: 600;
+	color: #414141;
+	margin-bottom: 0;
+}
+
+p.infoB {
+	font-weight: 100;
+	color: #414141;
+	margin-bottom: 1.5em;
+	margin-top: 0.5em;
+}
+
+p.list-desc {
+	font-weight: 100;
+	font-weight: 100;
+    margin: 0 0 1em 0;
+}
+
+p.projectMeta {
+	font-size: 0.9em;
+	color: #414141;
+	margin-top: 0.3em;
+    font-weight: 100;
+    line-height: 1.5em;
+}
+
+p.projectBody {
+	font-size: .9em;
+	color: #4F4F4F;
+	margin-top: 1.5em;
+    font-weight: 100;
+    line-height: 1.6em;
+}
+
+p.project-desc {
+	font-weight: 100;
+	margin: 0 0 2.2em 0;
+}
+
+p.quote {
+	font-weight: 100;
+	font-size: 1.3em;
+	font-style: italic;
+	margin: 0 0 2.2em 0;
+}
+
+p.work-description {
+	color: #414141;
+    font-weight: 100;
+    margin-top: 10px;
+    margin-bottom: 4em;
+}
+
+/* Links */
+
+a {
+	font-family: "Rubik", sans-serif;
+	text-decoration: none;
+	position: relative;
+}
+
+a.navLink {
+	font-weight: 100;
+	color: #9A9A9A;
+	margin-left: 25px;
+	margin-right: 25px;
+}
+
+a.navLink:hover{
+	color: #5DC3C9;
+}
+
+a.navName {
+	color: #9A9A9A;
+}
+
+a.navName:hover{
+	color: #5DC3C9;
+}
+
+a.viewWork {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 0.95em;
+	font-weight: 100;
+	text-decoration: none;
+	color: #3A98DF;
+	position: absolute;
+    bottom: 0;
+}
+
+	a.viewWork:hover {
+		color: #98D3FF;
+	}
+
+a.projectPic {
+    max-width: 100%;
+    width: 450px;
+    height: 325px;
+    margin-right: 2.8em;
+}
+	.projectPic:hover {
+		opacity: 0.6;
+	}
+
+a.person {
+	font-family: 'Open Sans', sans-serif;
+	color: #5DC3C9;
+}
+
+	a.person:hover {
+		color: #fff;
+		background-color: #5DC3C9;
+	}
+
+/* Lists */
+
+ul {
+	font-family: "Open sans", sans-serif;
+	font-weight: 100;
+	font-size: 1em;
+}
+
+/* Nav */
+
+nav {
+	display: flex;
+	vertical-align: baseline;
+	width: 100%;
+}
+
+.navLeft {
+	width: 40%;
+	float: left;
+}
+
+.navRight {
+	width: 60%;
+	text-align: right;
+}
+
+/* Img */
+
+img {
+	display: inline;
+    margin: 0 auto;
+    height: 100%;
+    width: auto;
+    max-width: 100%;
+}
+
+
+/* Divs */
+
+.container {
+	max-width: 850px;
+	padding-top: 35px;
+	padding-left: 250px;
+	padding-right: 250px;
+	padding-bottom: 100px;
+	margin: auto;
+}
+
+.hero {
+	max-width: 400px
+}
+
+.image2 {
+	display: flex;
+}
+
+.imageLeft {
+	display: flex;	
+}
+
+.metaDesc {
+	display: flex;
+}
+
+.metaLeft {
+	width: 35%;
+}
+
+.metaRight {
+	text-align: left;
+}
+
+.projectDesc {
+	width: 50%;
+	position: relative;
+}
+
+.projectMock {
+	max-width: 850px;
+	overflow: auto;
+	height: auto;
+	margin-top: 1.3em;
+}
+
+.portfolioDesc {
+	/*width: 100%;*/
+	margin-top: 2.8em;
+	/*position: absolute;*/
+}
+
+.overview {
+	margin-bottom: 4em;
+	line-height: 1.75em;
+}
+
+.work {
+	margin-top: 100px;
+}
+
+.workSection {
+	display: flex;
+	padding-bottom: 6em;
+}
+
+.workDesc{
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 3.5em;
+}
+
+.uiuxWork {
+	display: flex;
+	margin-bottom: 6.5em;
+}
