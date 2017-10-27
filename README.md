@@ -1,2 +1,2 @@
 # Personal Portfolio Website
-Personal portfolio website version 1.0. 
+Personal portfolio website version 1.
