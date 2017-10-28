@@ -5,11 +5,10 @@
 
 h1.heroHead {
 	font-family: "Rubik", sans-serif;
-	font-size: 3.3em;
-	font-weight: 500;
-	color: #5DC3C9;
+	font-size: 3.75em;
+	font-weight: 400;
+	color: #414141;
     margin-bottom: 0;
-    margin-top: 225px;
 }
 
 h1.portfolioTitle {
@@ -169,6 +168,14 @@ p.list-desc {
     margin: 0 0 1em 0;
 }
 
+p.project-desc-home {
+	font-size: 1em;
+	color: #414141;
+	margin-top: 1.75em;
+    font-weight: 100;
+    line-height: 1.5em;
+}
+
 p.projectMeta {
 	font-size: 0.9em;
 	color: #414141;
@@ -310,7 +317,6 @@ img {
 img.box {
 	height: 250px;
 	width: 250px;
-	object-fit: contain;
 	overflow: hidden;
 }
 
@@ -361,10 +367,13 @@ img.fullwidth {
 
 .GDbox {
 	max-width: 283px;
+	position: relative;
 }
 
 .hero {
-	max-width: 400px
+	max-width: 400px;
+    margin-bottom: 15em;
+    margin-top: 8em;
 }
 
 .image2 {
