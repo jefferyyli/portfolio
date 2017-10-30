@@ -229,14 +229,17 @@ a.navLink {
 	color: #9A9A9A;
 	margin-left: 25px;
 	margin-right: 25px;
+	font-size: 16px;
 }
 
 a.navLink:hover{
 	color: #5DC3C9;
+	font-size: 16px;
 }
 
 a.navName {
 	color: #9A9A9A;
+	font-size: 16px;
 }
 
 a.navName:hover{
@@ -445,7 +448,7 @@ img.fullwidth {
 	margin-bottom: 6.5em;
 }
 
-/*media*/
+/*Responsive*/
 
 @media (min-width: 1024px) and (max-width: 1439px){
 	.container {
@@ -453,11 +456,23 @@ img.fullwidth {
 	}
 	.projectMock {
 	}
+	.navLeft {
+		width: 30%
+	}
+	.navRight {
+		width: 100%;
+	}
 }
 
 @media (min-width: 768px) and (max-width: 1023px) {
 	.container {
     	padding: 30px 50px;
+	}
+	.navLeft {
+		width: 30%
+	}
+	.navRight {
+		width: 100%;
 	}
 }
 
@@ -465,10 +480,95 @@ img.fullwidth {
 	.container {
     	padding: 15px;
 	}
+	.metaDesc {
+		display: block;
+	}
+	.metaLeft {
+		width: 100%;
+	}
+	.metaRight {
+		widows: 100%;
+	}
+	nav {
+		display: block;
+	    width: 100%;
+	}
+	.navRight {
+		width: 100%;
+	    text-align: center;
+	    display: grid;
+	    line-height: 25px;
+	}
+	.navLeft {
+		width: 100%;
+	    text-align: center;
+	    padding-bottom: 12px;
+	}
+	a.navLink {
+		font-size: 20px;
+		line-height: 35px;
+	}
+	a.navName {
+		font-size: 20px;
+	}
+	p.work-description {
+		margin-bottom: 3em;
+		max-width: 100%;
+	}
+	.projectDesc {
+		width: 100%;
+	}
+	a.viewWork {
+		position: inherit;
+	}
+	.workSection {
+		display: block;
+	}
+	h1.portfolioTitle {
+		margin-top: 2.5em;
+	}
+	h2.projectTitle {
+		margin-top: 1em;
+	}
 }
 
-@media (min-width: 325px) and (max-width: 424px) {
+@media (max-width: 424px) {
 	.container {
     	padding: 5px;
+	}
+	.metaDesc {
+		display: block;
+	}
+	.metaLeft {
+		width: 100%;
+	}
+	.metaRight {
+		widows: 100%;
+	}
+	nav {
+		display: block;
+	    width: 100%;
+	}
+	.navRight {
+		width: 100%;
+	    text-align: center;
+	    display: grid;
+	    line-height: 25px;
+	}
+	.navLeft {
+		width: 100%;
+	    text-align: center;
+	    padding-bottom: 12px;
+	}
+	a.navLink {
+		font-size: 20px;
+		line-height: 35px;
+	}
+	a.navName {
+		font-size: 20px;
+	}
+	p.work-description {
+		margin-bottom: 3em;
+		max-width: 100%;
 	}
 }
