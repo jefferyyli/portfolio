@@ -22,7 +22,7 @@ h1.portfolioTitle {
 
 h1.projectTitle {
 	font-family: "Rubik", sans-serif;
-	font-size: 2.8em;
+	font-size: 50px;
 	font-weight: 400;
 	color: #4F4F4F;
 	margin-bottom: 0;
@@ -56,7 +56,7 @@ h3.about {
 
 h3.projectSubtitle {
 	font-family: 'Open Sans', sans-serif;
-	font-size: 1.1em;
+	font-size: 19px;
 	font-weight: 100;
 	margin-top: 0.5em;
 	margin-bottom: 1.5em;
@@ -65,7 +65,7 @@ h3.projectSubtitle {
 
 h3.project-title {
 	font-family: "Rubik", sans-serif;
-	font-size: 2.25em;
+	font-size: 35px;
 	font-weight: 400;
 	margin-bottom: 0.75em;
 	color: #414141;
@@ -73,7 +73,7 @@ h3.project-title {
 
 h3.proj-subtitle {
 	font-family: "Open Sans", sans-serif;
-	font-size: 1.5em;
+	font-size: 28px;
 	font-weight: 400;
 	color: #414141;
 }
@@ -126,10 +126,11 @@ h4.projectType {
 
 p {
 	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
 }
 
 p.caption {
-    font-size: 0.75em;
+    font-size: 12.5px;
     font-weight: 100;
     margin: 0 0 3.8em 0;
     color: #8e8e8e;
@@ -153,6 +154,7 @@ p.infoA {
 	font-weight: 600;
 	color: #414141;
 	margin-bottom: 0;
+	font-size: 16px;
 }
 
 p.infoB {
@@ -160,6 +162,7 @@ p.infoB {
 	color: #414141;
 	margin-bottom: 1.5em;
 	margin-top: 0.5em;
+	font-size: 16px;
 }
 
 p.list-desc {
@@ -218,6 +221,7 @@ a {
 	font-family: "Rubik", sans-serif;
 	text-decoration: none;
 	position: relative;
+	font-size: 15px;
 }
 
 a.navLink {
@@ -283,7 +287,7 @@ a.person {
 ul {
 	font-family: "Open sans", sans-serif;
 	font-weight: 100;
-	font-size: 1em;
+	font-size: 16px;
 }
 
 /* Nav */
@@ -311,7 +315,7 @@ img {
     margin: 0 auto;
     height: 100%;
     width: auto;
-    max-width: 100%;
+    width: 100%;
 }
 
 img.box {
@@ -357,6 +361,7 @@ img.fullwidth {
 }
 
 .container {
+	display: block;
 	max-width: 850px;
 	padding-top: 35px;
 	padding-left: 250px;
@@ -438,4 +443,32 @@ img.fullwidth {
 .uiuxWork {
 	display: flex;
 	margin-bottom: 6.5em;
+}
+
+/*media*/
+
+@media (min-width: 1024px) and (max-width: 1439px){
+	.container {
+    	padding: 30px 125px;
+	}
+	.projectMock {
+	}
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+	.container {
+    	padding: 30px 50px;
+	}
+}
+
+@media (min-width: 425px) and (max-width: 767px) {
+	.container {
+    	padding: 15px;
+	}
+}
+
+@media (min-width: 325px) and (max-width: 424px) {
+	.container {
+    	padding: 5px;
+	}
 }
