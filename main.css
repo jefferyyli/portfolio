@@ -13,7 +13,7 @@ h1.heroHead {
 
 h1.portfolioTitle {
 	font-family: "Rubik", sans-serif;
-	font-size: 2em;
+	font-size: 35px;
 	color: #4F4F4F;
 	font-weight: 400;
     margin-top: 3.5em;
@@ -43,7 +43,7 @@ h2.projectTitle {
 	margin-bottom: 0;
     margin-top: 0;
     font-weight: 400;
-    font-size: 1.65em;
+    font-size: 24px;
 	color: #414141;
 }
 
@@ -106,7 +106,7 @@ h4.subtitle2 {
 
 h4.projectDate {
     font-family: "Rubik", sans-serif;
-    font-size: 1em;
+    font-size: 16px;
     font-weight: 100;
     color: #9A9A9A;
     margin-top: 0.5em;
@@ -180,7 +180,7 @@ p.project-desc-home {
 }
 
 p.projectMeta {
-	font-size: 0.9em;
+	font-size: 14px;
 	color: #414141;
 	margin-top: 0.3em;
     font-weight: 100;
@@ -213,6 +213,7 @@ p.work-description {
     margin-top: 10px;
     margin-bottom: 4em;
     max-width: 60%;
+    font-size: 16px;
 }
 
 /* Links */
@@ -248,7 +249,7 @@ a.navName:hover{
 
 a.viewWork {
 	font-family: 'Open Sans', sans-serif;
-	font-size: 0.95em;
+	font-size: 15px;
 	font-weight: 100;
 	text-decoration: none;
 	color: #3A98DF;
@@ -476,7 +477,7 @@ img.fullwidth {
 	}
 }
 
-@media (min-width: 425px) and (max-width: 767px) {
+@media (min-width: 425px) and (max-width: 768px) {
 	.container {
     	padding: 15px;
 	}
@@ -530,6 +531,14 @@ img.fullwidth {
 	h2.projectTitle {
 		margin-top: 1em;
 	}
+	.imageLeft {
+		display: block;
+	}
+	img {
+		max-width: 850px;
+		overflow: auto;
+		height: auto;
+	}
 }
 
 @media (max-width: 424px) {
@@ -570,5 +579,28 @@ img.fullwidth {
 	p.work-description {
 		margin-bottom: 3em;
 		max-width: 100%;
+	}
+	.projectDesc {
+		width: 100%;
+	}
+	a.viewWork {
+		position: inherit;
+	}
+	.workSection {
+		display: block;
+	}
+	h1.portfolioTitle {
+		margin-top: 2.5em;
+	}
+	h2.projectTitle {
+		margin-top: 1em;
+	}
+	.imageLeft {
+		display: block;
+	}
+	img {
+		max-width: 850px;
+		overflow: auto;
+		height: auto;
 	}
 }
