@@ -130,13 +130,12 @@ h4.subtitle2 {
 }
 
 h4.projectDate {
-	font-family: "Open sans", sans-serif;
-    font-size: 18px;
+    font-family: "Open sans", sans-serif;
+    font-size: 15px;
     font-weight: 100;
     color: #9A9A9A;
     margin-top: 0.2em;
-    margin-bottom: 3em;
-    text-align: center;
+    margin-bottom: 1.8em;
 }
 
 h4.GDprojectDate {
