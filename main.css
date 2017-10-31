@@ -35,7 +35,7 @@ h1.photoTitle {
     color: #4F4F4F;
     font-weight: 400;
     margin-top: 3em;
-    margin-bottom: 0.3em;
+    margin-bottom: 0.5em;
     text-align: center;
 }
 
@@ -206,6 +206,14 @@ p.GDinfoA {
     padding-top: 3em;
 }
 
+p.photolocation {
+	text-align: center;
+	font-size: 14px;
+	font-weight: 100;
+	color: #9A9A9A;
+	margin-bottom: 6em;
+    margin-top: .5em;
+}
 
 p.homeBody {
 	color: #414141;
@@ -292,6 +300,15 @@ p.photo-desc {
     margin: auto;
     text-align: center;
     padding-bottom: 5em;
+}
+
+p.photo-desc2 {
+    color: #414141;
+    font-weight: 100;
+    width: 60%;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 0.4em;
 }
 
 /* Links */
@@ -425,6 +442,7 @@ a.photoContain {
 a.person {
 	font-family: 'Open Sans', sans-serif;
 	color: #5DC3C9;
+	font-size: 16px;
 }
 
 	a.person:hover {
@@ -703,10 +721,12 @@ img.disabledBox {
 
 	.photocontainer:hover .hovertext {
 		visibility:visible;
+		transition: 0.6s ease;
 	}
 
 	.photocontainer:hover .hoversubtext {
 		visibility:visible;
+		transition: 0.6s ease;
 	}
 
 	.hovertext {
