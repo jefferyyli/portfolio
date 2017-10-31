@@ -387,7 +387,7 @@ a.photoPicContainer {
 }
 
 	a.photoPicContainer:hover {
-		opacity: 0.8;
+		opacity: 0.65;
   		transition: .5s ease;
 	}
 
@@ -497,6 +497,30 @@ a.arrownav {
 .projnavright {
 	text-align: right;
 	width: 50%;
+}
+
+#scrollTop {
+    position: fixed;
+    bottom: 2.5em;
+    right: 3em;
+    z-index: 999;
+    border: none;
+    outline: none;
+    border-radius: 100px;
+    padding: 15px;
+    background-color: #f1f1f1;
+    cursor: pointer;
+    height: 45px;
+    width: 45px;
+}
+
+	#scrollTop:hover {
+		opacity: 0.7;
+	}
+
+.up {
+    transform: rotate(-135deg);
+    -webkit-transform: rotate(-135deg);
 }
 
 /* Img */
