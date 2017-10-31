@@ -120,7 +120,7 @@ h4.projectType {
     color: #9A9A9A;
     margin-top: 0.5em;
     margin-bottom: 2em;
-    max-width: 250px;
+    line-height: 1.5em;
 }
 
 
@@ -271,10 +271,23 @@ a.projectPic {
 		opacity: 0.6;
 	}
 
+a.projectPicBox {
+    max-width: 100%;
+    width: auto;
+    height: auto;
+    margin-right: 2.8em;
+}
+	.projectPicBox:hover {
+		opacity: 0.6;
+	}
+
 a.projectPicContainer {
 	max-width: 100%;
 	height: 250px;
 }
+	a.projectPicContainer:hover {
+		opacity: 0.8;
+	}
 
 a.person {
 	font-family: 'Open Sans', sans-serif;
@@ -321,12 +334,6 @@ img {
     width: 100%;
 }
 
-img.box {
-	height: 250px;
-	width: 250px;
-	overflow: hidden;
-}
-
 img.side {
 	max-width: 415px;
     max-height: 300px;
@@ -352,15 +359,27 @@ img.projectMockWhite {
 
 img.fullwidth {
     max-width: 100%;
-    height: 400px;
-    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+
+img.disabledBox {
+	max-width: 100%;
+    width: auto;
+    height: auto;
+    margin-right: 2.8em;
 }
 
 /* Divs */
 
-.threecolumn {
-	display: flex;
-	justify-content: space-between;
+.twocolumn {
+	width: 30%;
+}
+
+.box {
+	height: auto;
+	width: auto;
+	overflow: hidden;
 }
 
 .container {
@@ -373,10 +392,16 @@ img.fullwidth {
 	margin: auto;
 }
 
-.GDbox {
-	max-width: 283px;
-	position: relative;
+.grid {
+    display: flex;
+    justify-content: space-between;
 }
+
+.GDbox {
+	max-width: 100%;
+	min-height: 345px;
+}
+
 
 .hero {
 	max-width: 400px;
@@ -389,11 +414,11 @@ img.fullwidth {
 }
 
 .imageContainerMW {
-	height: 325px;
+	height: auto;
 	width: 100%;
 	overflow: hidden;
 	position: relative;
-	margin-bottom: 2.75em;
+	margin-bottom: 2.25em;
 }
 
 .imageLeft {
@@ -450,7 +475,7 @@ img.fullwidth {
 
 /*Responsive*/
 
-@media (min-width: 1024px) and (max-width: 1439px){
+@media (min-width: 1025px) and (max-width: 1440px){
 	.container {
     	padding: 30px 125px;
 	}
@@ -464,7 +489,7 @@ img.fullwidth {
 	}
 }
 
-@media (min-width: 768px) and (max-width: 1023px) {
+@media (min-width: 769px) and (max-width: 1024px) {
 	.container {
     	padding: 30px 50px;
 	}
@@ -476,7 +501,7 @@ img.fullwidth {
 	}
 }
 
-@media (min-width: 425px) and (max-width: 768px) {
+@media (min-width: 426px) and (max-width: 768px) {
 	.container {
     	padding: 15px;
 	}
@@ -534,17 +559,39 @@ img.fullwidth {
 	}
 	img {
 		max-width: 850px;
-		overflow: auto;
+		overflow: hidden;
 		height: auto;
 	}
 	.image2 {
 		display: block;
 	}
+	.twocolumn {
+	    width: 100%;
+	    display: flex;
+	    justify-content: space-between;
+	}
+	.GDbox {
+	    max-width: 47%;
+	    min-height: 345px;
+    }
+    .grid {
+    	display: block;
+    }
 }
 
-@media (max-width: 424px) {
+@media all and (max-width: 425px) {
 	.container {
     	padding: 5px;
+    }
+	.twocolumn {
+		width: 100%;
+		display: block;
+	}
+	.grid {
+		display: block;
+	}
+	.GDbox {
+		width: 100%;
 	}
 	.metaDesc {
 		display: block;
@@ -553,8 +600,7 @@ img.fullwidth {
 		width: 100%;
 	}
 	.metaRight {
-		widows: 100%;
-	}
+		widows: 100%;}
 	nav {
 		display: block;
 	    width: 100%;
@@ -601,8 +647,14 @@ img.fullwidth {
 	}
 	img {
 		max-width: 850px;
-		overflow: auto;
+		overflow: hidden;
 		height: auto;
+	}
+	img.fullwidth {
+		width: auto;
+		height: 335px;
+	    object-fit: cover;
+	    object-position: left;
 	}
 	.image2 {
 		display: block;
