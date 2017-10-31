@@ -298,8 +298,7 @@ a.anchor {
 a.navLink {
 	font-weight: 100;
 	color: #9A9A9A;
-	margin-left: 25px;
-	margin-right: 25px;
+	margin-left: 50px;
 	font-size: 16px;
 }
 
@@ -790,5 +789,9 @@ img.disabledBox {
 @media all and (max-width: 768px) {
 	h2.GDtitle, p.GDprojectinfo {
 		width: 100%;
+	}
+	a.navLink {
+		margin-left: 25px;
+		margin-right: 25px;
 	}
 }
