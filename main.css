@@ -291,7 +291,7 @@ p.photo-desc {
     width: 60%;
     margin: auto;
     text-align: center;
-    padding-bottom: 7em;
+    padding-bottom: 5em;
 }
 
 /* Links */
@@ -390,6 +390,37 @@ a.photoPicContainer {
 		opacity: 0.8;
   		transition: .5s ease;
 	}
+
+a.photoContain {
+	width: 100%;
+	height: auto;
+	display: inherit;
+	position: relative;
+}	
+
+	a.photoContain:hover {
+		opacity: 0.6;
+		transition: .5s ease;
+	}
+
+	.overlay .smalltext {
+		position:relative;
+		bottom: 275px;
+		visibility:hidden;
+	}
+
+	.overlay:hover .smalltext {
+		visibility: visible;
+	}
+
+	.smalltext {
+		font-family: 'Rubik', sans-serif;
+		font-weight: 100;
+		font-size: 24px;
+    	text-align: center;
+    	color: #fff;
+	}
+
 
 a.person {
 	font-family: 'Open Sans', sans-serif;
@@ -519,6 +550,31 @@ img.disabledBox {
 		transition: .5s ease;
 	}
 
+/* Photo Grid */
+
+.photogrid {
+	width: 100vw;
+    position: absolute;
+    left: 0;
+    margin-bottom: 15em;
+}
+
+.photocolumn {
+    float: left;
+    width: 25%;
+}
+
+.photocolumn img {
+    width: 100%;
+    display: inherit;
+}
+
+.photogrid:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
 /* Divs */
 
 .twocolumn {
@@ -538,12 +594,6 @@ img.disabledBox {
 
 .column img {
     width: 100%;
-}
-
-.row:after {
-    content: "";
-    display: table;
-    clear: both;
 }
 
 .container {
@@ -800,6 +850,9 @@ img.disabledBox {
     .grid {
     	display: block;
     }
+    .photocolumn {
+    	width: 50%;
+    }
 }
 
 @media all and (max-width: 425px) {
@@ -850,7 +903,7 @@ img.disabledBox {
 		margin-bottom: 3em;
 		max-width: 100%;
 	}
-	.projectDesc {
+	.projectDesc, .photo-desc {
 		width: 100%;
 	}
 	a.viewWork {
@@ -882,6 +935,9 @@ img.disabledBox {
 	.image2 {
 		display: block;
 	}
+	.photocolumn {
+		width: 100%;
+	}
 }
 
 @media all and (max-width: 768px) {
@@ -893,3 +949,4 @@ img.disabledBox {
 		margin-right: 25px;
 	}
 }
+
