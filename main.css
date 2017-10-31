@@ -575,6 +575,16 @@ img.disabledBox {
     clear: both;
 }
 
+.photopage {
+	width: 100%;
+}
+
+.photopagefull {
+	width: 100vw;
+	position: absolute;
+	left: 0;
+}
+
 /* Divs */
 
 .twocolumn {
