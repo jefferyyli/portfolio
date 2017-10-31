@@ -183,7 +183,7 @@ p.GDprojectinfo {
     width: 70%;
     margin: auto;
     line-height: 1.7em;
-    padding-bottom: 4em;
+    padding-bottom: 1em;
 }
 
 p.GDinfoA {
@@ -194,6 +194,7 @@ p.GDinfoA {
     color: #9A9A9A;
     margin-bottom: 0;
     margin-top: 0.4em;
+    padding-top: 3em;
 }
 
 
@@ -480,6 +481,9 @@ img.disabledBox {
     height: auto;
     margin-right: 2.8em;
 }
+	img.disabledBox:hover {
+		opacity: 0.6;
+	}
 
 /* Divs */
 
