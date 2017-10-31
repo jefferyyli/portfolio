@@ -47,6 +47,18 @@ h2.projectTitle {
 	color: #414141;
 }
 
+h2.GDtitle {
+	font-family: "Rubik", sans-serif;
+	font-weight: 400;
+	color: #414141;
+	font-size: 42px;
+    margin-top: 0.5em;
+    margin-bottom: 0;
+    width: 50%;
+    text-align: center;
+    margin: auto;
+}
+
 h3.about {
 	color: #A2D5D8;
 	font-size: .8em;
@@ -105,13 +117,25 @@ h4.subtitle2 {
 }
 
 h4.projectDate {
-    font-family: "Rubik", sans-serif;
+	font-family: "Open sans", sans-serif;
+    font-size: 18px;
+    font-weight: 100;
+    color: #9A9A9A;
+    margin-top: 0.2em;
+    margin-bottom: 3em;
+    text-align: center;
+}
+
+h4.GDprojectDate {
+    font-family: "Open sans", sans-serif;
     font-size: 16px;
     font-weight: 100;
     color: #9A9A9A;
-    margin-top: 0.5em;
-    margin-bottom: 2em;
+    margin-top: 0.3em;
+    margin-bottom: 4em;
+    text-align: center;
 }
+
 
 h4.projectType {
 	font-family: "Rubik", sans-serif;
@@ -137,6 +161,28 @@ p.caption {
     text-align: center;
     line-height: 1.8em;
 }
+
+p.GDprojectinfo {
+	text-align: center;
+    color: #414141;
+    font-weight: 100;
+    font-size: 14.5px;
+    width: 70%;
+    margin: auto;
+    line-height: 1.7em;
+    padding-bottom: 4em;
+}
+
+p.GDinfoA {
+    width: 100%;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 100;
+    color: #9A9A9A;
+    margin-bottom: 0;
+    margin-top: 0.4em;
+}
+
 
 p.homeBody {
 	color: #414141;
@@ -325,6 +371,47 @@ nav {
 	text-align: right;
 }
 
+i {
+    border: solid #4f4f4f;
+    border-width: 0 2px 2px 0;
+    display: inline-block;
+    padding: 4px;
+}
+
+a.arrownav {
+    font-family: "Open Sans", sans-serif;
+    color: #4f4f4f;
+    font-weight: 300;
+}
+
+	a.arrownav:hover {
+		color: #5DC3C9
+	}
+
+.arrowleft {
+    -webkit-transform: rotate(135deg);
+}
+
+.arrowright {
+	transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+}
+
+.projnav {
+	margin-top: 5em;
+	display: flex;
+}
+
+.projnavleft {
+	text-align: left;
+	width: 50%
+}
+
+.projnavright {
+	 text-align: right;
+	width: 50%;
+}
+
 /* Img */
 
 img {
@@ -402,6 +489,13 @@ img.disabledBox {
 	min-height: 345px;
 }
 
+.GDpage {
+    margin-top: 4em;
+}
+
+.GDinfo {
+	display: block;
+}
 
 .hero {
 	max-width: 400px;
@@ -658,5 +752,11 @@ img.disabledBox {
 	}
 	.image2 {
 		display: block;
+	}
+}
+
+@media all and (max-width: 768px) {
+	h2.GDtitle, p.GDprojectinfo {
+		width: 100%;
 	}
 }
