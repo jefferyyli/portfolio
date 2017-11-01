@@ -40,11 +40,11 @@ h1.photoTitle {
 }
 
 h2.homeTitle {
-	font-family: "Rubik", sans-serif;
-	color: #414141;
-    font-weight: 500;
-    font-size: 2em;
-    margin-bottom: 0;
+    font-family: "Rubik", sans-serif;
+    color: #414141;
+    font-weight: 400;
+    font-size: 26px;
+    margin-bottom: 0.7em;
     margin-top: 0;
 }
 
@@ -517,7 +517,7 @@ a.arrownav {
 	width: 50%;
 }
 
-#scrollTop {
+#scrollToTop {
     position: fixed;
     bottom: 2.5em;
     right: 3em;
@@ -663,6 +663,12 @@ img.disabledBox {
     justify-content: space-between;
 }
 
+.homegrid {
+    display: flex;
+    justify-content: space-between;
+}
+
+
 .GDbox {
 	max-width: 100%;
 	min-height: 345px;
@@ -683,8 +689,17 @@ img.disabledBox {
 
 .hero {
 	max-width: 400px;
-    margin-bottom: 15em;
+    margin-bottom: 18em;
     margin-top: 8em;
+}
+
+.homecontainer {
+	width: 48%;
+}
+
+.homebox {
+	width: 30.5%;
+    margin-top: 2em;
 }
 
 .image2 {
@@ -704,6 +719,7 @@ img.disabledBox {
 	width: 100%;
 	overflow: hidden;
 	position: relative;
+	text-align: center;
 }
 
 	.photocontainer .hovertext {
@@ -733,8 +749,8 @@ img.disabledBox {
 		font-family: 'Rubik', sans-serif;
 		font-weight: 100;
 		font-size: 36px;
-    	text-align: center;
     	color: #fff;
+    	display: inline-block;
 	}
 
 	.hoversubtext {
@@ -742,7 +758,6 @@ img.disabledBox {
 		font-weight: 100;
 		font-size: 18px;
 		width: 45%;
-    	text-align: center;
     	color: #fff;
 	}
 
@@ -1001,6 +1016,16 @@ img.disabledBox {
 	a.navLink {
 		margin-left: 25px;
 		margin-right: 25px;
+	}
+	.homecontainer {
+	    width: 100%;
+	    margin-bottom: 2em;
+	}
+	.homegrid {
+		display: block;
+	}
+	.homebox {
+		width: 100%;
 	}
 }
 
