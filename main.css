@@ -17,6 +17,15 @@ h1.portfolioTitle {
     margin-bottom: 0.3em;
 }
 
+h1.abouttitle {
+    font-family: "Rubik", sans-serif;
+    font-size: 35px;
+    color: #4F4F4F;
+    font-weight: 400;
+    margin-top: 0;
+    margin-bottom: 0.3em;
+}
+
 h1.projectTitle {
 	font-family: "Rubik", sans-serif;
 	font-size: 50px;
@@ -450,12 +459,30 @@ a.photoContain {
 a.person {
 	font-family: 'Open Sans', sans-serif;
 	color: #5DC3C9;
-	font-size: 16px;
+	font-size: 15px;
 }
 
 	a.person:hover {
 		color: #fff;
 		background-color: #5DC3C9;
+	}
+
+button.resume {
+	background-color: #5dc3c9; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 100;
+    margin-top: 2.5em;
+}
+
+	button.resume:hover {
+		opacity: 0.6;
+		transform: 0.5s ease;
 	}
 
 /* Lists */
