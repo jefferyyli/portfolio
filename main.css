@@ -497,7 +497,6 @@ ul {
 
 nav {
 	display: flex;
-	vertical-align: baseline;
 	width: 100%;
 }
 
@@ -510,6 +509,16 @@ nav {
 	width: 60%;
 	text-align: right;
 }
+
+img.logo {
+	width: 45px;
+	height: auto;
+}
+
+	img.logo:hover {
+		opacity: 0.6;
+		transform: 0.7s ease;
+	}
 
 i {
     border: solid #4f4f4f;
