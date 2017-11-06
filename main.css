@@ -321,6 +321,14 @@ p.photo-desc2 {
     margin-bottom: 0.4em;
 }
 
+p.note {
+	font-style: italic;
+	font-weight: 100;
+    font-size: .7em;
+    color: #9a9a9a;
+    margin-top: 5em;
+}
+
 /* Links */
 
 a {
