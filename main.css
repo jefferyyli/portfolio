@@ -597,7 +597,6 @@ a.arrownav {
   	text-align: left;
   	margin-top: 8em;
    	margin-bottom: 5em;
-   	max-width: 50%;
 }
 
 .footer-row {
@@ -667,6 +666,11 @@ img.disabledBox {
 		transition: .5s ease;
 	}
 
+img.aboutimg {
+	width: 475px;
+	height: auto;
+}
+
 /* Photo Grid */
 
 .photogrid {
@@ -706,6 +710,16 @@ img.disabledBox {
 
 .twocolumn {
 	width: 30%;
+}
+
+.aboutcontainer {
+	display: flex;
+	margin-top: 8em;
+}
+
+.aboutinfo {
+	margin-left: 2.5em;
+	max-width: 45%;
 }
 
 .box {
@@ -1164,6 +1178,19 @@ img.disabledBox {
 	}
 	.homebox {
 		width: 100%;
+	}
+	.aboutcontainer {
+		display: block;
+		margin-top: 4em;
+	}
+	.aboutinfo {
+		margin-left: 0;
+		margin-top: 2em;
+		max-width: 100%;
+	}
+	img.aboutimg {
+		width: 100%;
+		height: auto;
 	}
 }
 
