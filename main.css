@@ -780,12 +780,18 @@ img.disabledBox {
 
 .homecontainer {
 	width: 48%;
+	height: 300px;
 }
 	
 	.homecontainer .hovertexthome {
-		position:relative;
-		bottom: 275px;
-		visibility:hidden;
+		position: relative;
+	    bottom: 195px;
+	    color: #fff;
+	    font-family: 'Rubik', sans-serif;
+	    font-size: 25px;
+	    display: inline;
+	    left: 125px;
+	    visibility: hidden;
 	}
 
 	.homecontainer .hoversubtexthome {
