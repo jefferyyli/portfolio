@@ -1082,6 +1082,12 @@ img.aboutimg {
     .photocolumn {
     	width: 50%;
     }
+    .herocontainer {
+    	margin-bottom: 23em;
+    }
+    .herocover {
+    	top: 15em;
+    }
 }
 
 @media all and (max-width: 425px) {
@@ -1167,6 +1173,12 @@ img.aboutimg {
 	.photocolumn {
 		width: 100%;
 	}
+	.herocontainer {
+		margin-bottom: 16em;
+	}
+	.herocover {
+		top: 14em;
+	}
 }
 
 @media all and (max-width: 768px) {
@@ -1200,5 +1212,7 @@ img.aboutimg {
 		width: 100%;
 		height: auto;
 	}
+	.homecontainer {
+		height: auto;
+	}
 }
-
