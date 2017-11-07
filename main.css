@@ -589,8 +589,8 @@ a.arrownav {
     width: 45px;
 }
 
-	#scrollTop:hover {
-		opacity: 0.7;
+	#scrollToTop:hover {
+		opacity: 0.6;
 	}
 
 .up {
