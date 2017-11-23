@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700,900');
+@import url('https://fonts.googleapis.com/css?family=Nunito:300,300i,400,400i,600,600i');
+
+/* Variables */
+
+/*$black: #424242;
+$grey: #BDBDBD;
+$blue: #5B95EB;*/
+
+/* Type */
+
+h1, h2, h3 {
+	font-family: 'Lato', sans-serif;
+}
+
+h1.hero-title {
+	font-weight: 900;
+    font-size: 2.75em;
+    margin-bottom: 0;
+	color: #424242;
+}
+
+h3.hero-subtitle {
+	font-weight: 700;
+	font-size: 1.2em;
+	margin-top: 0.1em;
+    margin-bottom: 2.5em;
+	color: #5B95EB;
+}
+
+h3.work-title {
+	color: #424242;
+	font-size: 1.3em;
+	margin-bottom: 0;
+	margin-top: 0.8em;
+}
+
+h4.project-type {
+	font-family: "Nunito", sans-serif;
+	font-weight: 300;
+	font-size: .9em;
+	color: #BDBDBD;
+	font-weight: 400;
+    margin-top: 0.5em;
+    margin-bottom: 0em;
+}
+
+p {
+	font-family: "Nunito", sans-serif;
+	font-size: 0.95em;
+	font-weight: 100;
+	line-height: 1.8em;
+	color: #424242;
+}
+
+p.hero-para {
+	width: 50%;
+}
+
+p.footer-text {
+	font-size: 0.85em;
+}
+
+p.project-info {
+	font-size: 0.92em;
+}
+
+/* Links */
+
+a {
+	font-family: 'Nunito', sans-serif;
+	text-decoration: none;
+}
+
+a.projectPicBox {
+    max-width: 100%;
+    width: auto;
+    height: auto;
+    margin-right: 2.8em;
+}
+	.projectPicBox:hover {
+		opacity: 0.6;
+		transition: .5s ease;
+	}
+
+a.email {
+	color: #5B95EB;
+}
+
+	a.email:hover {
+		opacity: 0.6;
+	}
+
+/* Nav */
+
+a.nav-link {
+	font-weight: 400;
+	font-size: 0.9em;
+	color: #BDBDBD;
+	text-decoration: none;
+	margin-left: 60px;
+}
+
+	a.nav-link:hover {
+		color: #5B95EB;
+	}
+
+nav {
+	float: right;
+}
+
+i.fa-lg {
+	font-size: 1.4em;
+	color: #5B95EB;
+}
+
+	i.fa-lg:hover {
+		opacity: 0.6;
+	}
+
+/* Imgs */
+
+img {
+	display: inline;
+    margin: 0 auto;
+    height: 100%;
+    width: 100%;
+}
+
+img.work-img {
+	border-radius: 0.3em;
+	height: 235px;
+}
+
+/* Divs */
+
+.container {
+	display: block;
+	max-width: 775px;
+	padding-top: 35px;
+	padding-left: 250px;
+	padding-right: 250px;
+	padding-bottom: 5px;
+	margin: auto;
+}
+
+.herocontainer {
+	margin-top: 7em;
+}
+
+.hero-icons {
+	margin-top: 4.5em;
+	display: flex;
+    width: 27%;
+    justify-content: space-between;
+}
+
+.homecontainer {
+	width: 47%;
+	margin-bottom: 4.5em;
+}
+
+	.homecontainer:hover {
+		top: -0.8em;
+		position: relative;
+	}
+
+.work-container {
+	margin-top: 10em;
+	margin-bottom: 4.25em;
+}
+
+.work {
+	display: flex;
+	justify-content: space-between;
+}
