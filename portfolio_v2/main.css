@@ -10,7 +10,7 @@ $blue: #5B95EB;*/
 
 /* Type */
 
-h1, h2, h3, h4 {
+h1, h2, h3, h4, h5 {
 	font-family: 'Lato', sans-serif;
 	color: #424242;
 }
@@ -52,6 +52,13 @@ h4.section-title {
     margin-bottom: 0.6em;
 }
 
+h5.section-subtitle {
+	font-weight: 700;
+    font-size: 1.25em;
+    margin-top: 2.25em;
+    margin-bottom: 1.25em;
+}
+
 p {
 	font-family: "Nunito", sans-serif;
 	font-size: 0.95em;
@@ -61,12 +68,24 @@ p {
 	margin-bottom: 1.8em;
 }
 
+p.caption {
+	font-family: 'Nunito', serif;
+	font-weight: 100;
+	font-style: italic;
+	font-size: 0.8em;
+	color: #BDBDBD;
+	text-align: center;
+	margin-bottom: 4.5em;
+}
+
 p.hero-para {
 	width: 50%;
 }
 
 p.footer-text {
 	font-size: 0.85em;
+	margin-top: 12em;
+	margin-bottom: 0.5em;
 }
 
 p.project-info {
@@ -83,7 +102,7 @@ p.proj-tags {
 p.quote {
     font-family: 'Bitter', serif;
     font-weight: 100;
-    font-size: 1.25em;
+    font-size: 1.2em;
     font-style: italic;
     margin: 0 0 2em 0;
 }
@@ -121,6 +140,15 @@ a.email {
 
 	a.email:hover {
 		opacity: 0.6;
+	}
+
+a.person {
+	color: #5B95EB;
+}
+
+	a.person:hover {
+		color: #fff;
+		background-color: #5B95EB;
 	}
 
 /* Nav */
@@ -164,6 +192,25 @@ img.work-img {
 	height: 235px;
 }
 
+img.work-pic {
+	width: 70%;
+    display: block;
+    justify-content: space-between;
+	overflow: auto;
+	height: auto;
+	margin-top: 3.5em;
+}
+
+img.work-pic-white {
+	width: 70%;
+    display: block;
+    justify-content: space-between;
+	overflow: auto;
+	height: auto;
+	margin-top: 3.5em;
+	border: 1px solid #d8d8d8;
+}
+
 /* Divs */
 
 .banner {
@@ -194,7 +241,7 @@ img.work-img {
 
 .homecontainer {
 	width: 47%;
-	margin-bottom: 4.2em;
+	margin-bottom: 4em;
 }
 
 	.homecontainer:hover {
@@ -210,6 +257,16 @@ img.work-img {
 .work {
 	display: flex;
 	justify-content: space-between;
+}
+
+.work-3col {
+	display: flex;
+	justify-content: space-between;
+	margin-top: -1.8em;
+}
+
+.work-type {
+	width: 29%;
 }
 
 /* Responsive */
