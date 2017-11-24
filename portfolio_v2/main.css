@@ -201,6 +201,15 @@ img.work-pic {
 	margin-top: 3.5em;
 }
 
+img.work-pic-full {
+	width: 100%;
+    display: block;
+    justify-content: space-between;
+	overflow: auto;
+	height: auto;
+	margin-top: 3.5em;
+}
+
 img.work-pic-white {
 	width: 70%;
     display: block;
