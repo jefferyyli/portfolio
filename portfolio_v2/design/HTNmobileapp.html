@@ -1,0 +1,70 @@
+<!DOCTYPE HTML>
+
+<html>
+	<head>
+		<title>Hack the North Mobile App</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" type="text/css" href="../main.css"/>
+	</head>
+
+	<body>
+		<div class="container">
+			
+			<!-- Navigation -->
+			
+			<nav>
+				<a href="../index.html" class="nav-link">design</a>
+				<a href="#" class="nav-link">misc.</a>
+				<a href="#" class="nav-link">photography</a>
+				<a href="#" class="nav-link">about</a>
+			</nav>
+
+			<a href="#top" onclick="scrollToTop();return false"><button id="scrollToTop"><i class="arrow up"></i></button></a>
+
+		</div>
+
+		<div class="banner"><body id="top">
+			<img src="../images/design/HTN-mobile/HTN-banner.png">
+		</div>
+
+		<div class="container">
+			<p class="proj-tags">Product Design, Visual Design</p>
+			<p>Hack the North is Canada's largest hackathon held at the University of Waterloo. We bring over 1000 students from over 22 countries to build and create over a period of 36 hours.</p>
+			<p>During the summer, I was given the opportunity to redesign the visual and user experience of the Hack the North 2017 mobile app. I worked with <a class="person" href=https://www.linkedin.com/in/moezbhatti/ target=_blank>Moez Bhatti</a>, who lead the design and development of the mobile app. The mobile app is used for the day-of event and there are many features that would assist the hacker at the event such as live updates, school and building maps, and mentorship. For this redesign, I was mainly in charge of the mentorship feature.</p>
+
+			<!-- 2016 mobile app -->
+
+			<h4 class="section-title">2016 Mobile App</h4>
+			<p>When I was assigned this project, my design lead told me that the user experience of the mobile app can definitely be improved a lot. I started off this project with playing around with the old app and trying to navigate to different features of the app.</p>
+			<h5 class="section-subtitle">Sign-in Flow</h5>
+			<p>The old flow for signing into the account was inefficient as you had to click on the "Sign In" button, enter your hacker email, click on "Next", enter your password, and then click on "Log In". You can log in much faster if you are able to enter your email and password on one screen and then click on one button that says "Login". I also thought that the text on the buttons were a bit too small for it to be readable.</p>
+			<img class="work-pic" src="../../images/HTNmobileapp/2016login.png">
+			<p class="caption">2016 Sign-in Flow</p>
+			<p>The old flow for signing into the account was inefficient as you had to click on the "Sign In" button, enter your hacker email, click on "Next", enter your password, and then click on "Log In". You can log in much faster if you are able to enter your email and password on one screen and then click on one button that says "Login". I also thought that the text on the buttons were a bit too small for it to be readable.</p>
+			<h5 class="section-subtitle">Navigation</h5>
+			<p>I noticed that the navigation was inconsistent. There was both a navigation drawer and bottom navigation bar (this pattern could be used depending on the context but I didn't think that this was the right fit), and a tab navigation for only the mentorship feature of this app. I personally don't like navigation drawers as this pattern hides other features of apps. What was needed for the new app is a consistent navigation that would allow the user to easily navigate between features. The 2016 navigation did not work as the tab navigation in mentorship did not have a bottom navigation so the user is not able to jump between other features of the app in one click.</p>
+			<img class="work-pic" src="../../images/HTNmobileapp/2016navigation.png">
+			<p class="caption">2016 Navigation</p>
+			<p>Moez and I had the most trouble with figuring out how to design the navigation the best way. We decided that it would be best to have a bottom navigation with four main features: Updates, Mentorship, Schedule and Sponsors. We believed that those four the most important features of the app. We also put a "more" button on the side of the navigation to access secondary features such as your profile, map and settings.</p>
+			<img class="work-pic" src="../../images/HTNmobileapp/whiteboard.png">
+			<p class="caption">Navigation ideation at Moez's house. We also found out that his closet door is a whiteboard on the same day.</p>
+
+
+			<!-- Footer -->
+
+			<footer>
+				<p class="footer-text">Want to chat? Contact me at <a href="mailto: jeffery.li@uwaterloo.ca" class="email" target=_blank>jeffery.li@uwaterloo.ca</a></p>
+			</footer>
+		</div>
+		<script type="text/javascript" src=../../js/scrolltop.js></script>
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-109259214-1"></script>
+		<script>
+		  window.dataLayer = window.dataLayer || [];
+		  function gtag(){dataLayer.push(arguments);}
+		  gtag('js', new Date());
+
+		  gtag('config', 'UA-109259214-1');
+		</script>
+	</body>
+</html>
