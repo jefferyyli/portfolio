@@ -26,12 +26,23 @@ h1.hero-title {
     margin-bottom: 0;
 }
 
+h1.construct-text {
+	font-size: 1.8em;
+	text-align: center;
+}
+
 h3.hero-subtitle {
 	font-weight: 700;
 	font-size: 1.2em;
 	margin-top: 0.1em;
     margin-bottom: 2.5em;
 	color: #5B95EB;
+}
+
+h3.construction-subtext {
+	font-weight: 400;
+	font-size: 0.9em;
+	text-align: center;
 }
 
 h3.work-title {
@@ -301,6 +312,11 @@ img.work-pic-white {
 	padding-right: 250px;
 	padding-bottom: 5px;
 	margin: auto;
+}
+
+.construction {
+	margin-top: 16em;
+	margin-bottom: 21em;
 }
 
 .herocontainer {
