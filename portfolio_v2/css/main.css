@@ -170,15 +170,38 @@ a.nav-link {
 	font-size: 0.9em;
 	color: #BDBDBD;
 	text-decoration: none;
-	margin-left: 60px;
 }
 
 	a.nav-link:hover {
 		color: #5B95EB;
 	}
 
+a.nav-link-l {
+	font-weight: 700;
+	font-size: 0.9em;
+	letter-spacing: 0.4px;
+	color: #BDBDBD;
+	text-decoration: none;
+}
+
+	a.nav-link-l:hover {
+		color: #5B95EB;
+	}
+
 nav {
-	float: right;
+	display: flex;
+	width: 100%;
+}
+
+.navLeft {
+	width: 60%;
+	float: left;
+}
+
+.navRight {
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
 }
 
 i.fa-lg {
@@ -262,7 +285,7 @@ img.work-pic-white {
 
 .banner {
 	width: 100%;
-    margin-top: 2.3em;
+    margin-top: 1.3em;
     overflow: hidden;
     height: 750px;
     background-size: auto 100%;
@@ -304,12 +327,17 @@ img.work-pic-white {
 .home-img {
 	width: 100%;
     overflow: hidden;
-    height: 235px;
+    height: 245px;
     background-size: auto 100%;
     background-repeat: no-repeat;
     background-position: center;
     border-radius: 0.3em;
 }
+
+	.home-img:hover {
+		opacity: 0.7;
+		transition: .7s ease;
+	}
 
 .work-container {
 	margin-top: 10em;
@@ -386,6 +414,15 @@ img.work-pic-white {
 	a.nav-link {
 		margin-left: 0;
 	}
+	.navRight {
+		display: grid;
+		text-align: center;
+		width: 100%;
+	}
+	.navLeft {
+		width: 100%;
+		text-align: center;
+	}
 	.work {
 		display: block;
 	}
@@ -393,7 +430,7 @@ img.work-pic-white {
 		width: 100%;
 	}
 	.herocontainer {
-		margin-top: 14em;
+		margin-top: 6em;
 	}
 	.hero-icons {
 		width: 100%;
