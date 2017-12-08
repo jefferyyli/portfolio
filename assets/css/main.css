@@ -344,6 +344,28 @@ img.work-pic-white {
 
 /* Divs */
 
+.about-left {
+	background-image: url('../../assets/images/me.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center 55%;
+	overflow: hidden;
+	border-radius: 0.3em;
+	width: 30%;
+	height: 235px;
+}
+
+.about-right {
+	width: 66.5%;
+}
+
+.about-sect {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 2.25em;
+}
+
+
 .banner {
 	width: 100%;
     margin-top: 0.6em;
@@ -548,6 +570,9 @@ img.work-pic-white {
 	a.nav-link {
 		margin-left: 0;
 	}
+	.banner {
+		height: 600px;
+	}
 	.navRight {
 		display: grid;
 		text-align: center;
@@ -564,7 +589,7 @@ img.work-pic-white {
 		width: 100%;
 	}
 	.herocontainer {
-		margin-top: 6em;
+		margin-top: 4.5em;
 	}
 	.hero-icons {
 		width: 100%;
