@@ -36,11 +36,34 @@ h1.construct-text {
 	text-align: center;
 }
 
+h2.GDtitle {
+    font-weight: 600;
+    color: #414141;
+    font-size: 2.35em;
+    margin-top: 0.5em;
+    margin-bottom: 0;
+    width: 50%;
+    text-align: center;
+    margin: auto;
+}
+
 h2.misc-title {
     font-size: 2em;
     color: #424242;
     margin-top: 2.2em;
     margin-bottom: 0;
+}
+
+h3.GDsubtitle {
+	font-weight: 600;
+    color: #414141;
+    font-size: 1.5em;
+    margin-top: 0.5em;
+    margin-bottom: 0;
+    width: 50%;
+    text-align: center;
+    margin: auto;
+    padding-bottom: 0.7em
 }
 
 h3.hero-subtitle {
@@ -67,6 +90,14 @@ h3.work-title {
 	font-size: 1.3em;
 	margin-bottom: 0;
 	margin-top: 0;
+}
+
+h4.GDprojectDate {
+    font-weight: 100;
+    color: #9A9A9A;
+    margin-top: 0.3em;
+    margin-bottom: 4em;
+    text-align: center;
 }
 
 h4.misc-subtitle {
@@ -126,6 +157,17 @@ p.caption {
 	margin-bottom: 4.5em;
 }
 
+p.GDprojectinfo {
+	text-align: center;
+    color: #414141;
+    font-weight: 100;
+    font-size: 14.5px;
+    width: 70%;
+    margin: auto;
+    line-height: 1.7em;
+    padding-bottom: 1em;
+}
+
 p.hero-para {
 	width: 50%;
 	opacity: 0;
@@ -139,6 +181,17 @@ p.footer-text {
 	font-size: 0.85em;
 	margin-top: 12em;
 	margin-bottom: 0.5em;
+}
+
+p.GDinfo {
+	width: 100%;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 100;
+    color: #9A9A9A;
+    margin-bottom: 0;
+    margin-top: 0.4em;
+    padding-top: 3em;
 }
 
 p.project-info {
@@ -175,6 +228,16 @@ a {
 	font-family: 'Nunito', sans-serif;
 	text-decoration: none;
 }
+
+a.anchor {
+	font-size: 16px;
+    font-weight: 100;
+    color: #5B95EB;
+}
+
+	a.anchor:hover {
+		opacity: 0.6;
+	}
 
 a.projectPicBox {
     max-width: 100%;
@@ -305,6 +368,49 @@ i.arrow {
     -webkit-transform: rotate(-135deg);
 }
 
+a.arrownav {
+	font-size: 0.9em;
+    color: #4f4f4f;
+    font-weight: 300;
+}
+
+	a.arrownav:hover {
+		color: #5B95EB;
+	}
+
+.arrowleft {
+	border: solid #4f4f4f;
+    border-width: 0 2px 2px 0;
+    display: inline-block;
+    padding: 4px;
+    -webkit-transform: rotate(135deg);
+}
+
+.arrowright {
+	border: solid #4f4f4f;
+    border-width: 0 2px 2px 0;
+    display: inline-block;
+    padding: 4px;
+	transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+}
+
+.projnav {
+	margin-top: 5em;
+	display: flex;
+	margin-bottom: 1em;
+}
+
+.projnavleft {
+	text-align: left;
+	width: 50%
+}
+
+.projnavright {
+	text-align: right;
+	width: 50%;
+}
+
 /* Imgs */
 
 img {
@@ -312,6 +418,10 @@ img {
     margin: 0 auto;
     height: 100%;
     width: 100%;
+}
+
+img.projectMock {
+	margin-bottom: 1em;
 }
 
 img.work-pic {
@@ -567,6 +677,12 @@ img.work-pic-white {
 	}
 	p.hero-para {
 		width: 75%;
+	}
+}
+
+@media all and (max-width: 768px) {
+	h2.GDtitle, p.GDprojectinfo {
+		width: 100%;
 	}
 }
 
