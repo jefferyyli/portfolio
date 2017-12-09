@@ -475,7 +475,7 @@ img.work-pic-white {
 	width: 100%;
     margin-top: 0.6em;
     overflow: hidden;
-    height: 765px;
+    height: 805px;
     background-size: auto 100%;
     background-repeat: no-repeat;
     background-position: center;
@@ -719,6 +719,10 @@ img.work-pic-white {
 	.home-img {
 		height: 450px;
 	}
+	.misc-img {
+		width: 200px;
+		height: 200px;
+	}
 	p.hero-para {
 		width: 75%;
 	}
@@ -773,7 +777,8 @@ img.work-pic-white {
 		justify-content: space-around;
 	}
 	.col-3 {
-	g	width: 100%;
+		width: 100%;
+		float: none;
 	}
 	.misc-img {
 		width: 350px;
@@ -782,5 +787,19 @@ img.work-pic-white {
 	h1.hero-title, h3.hero-subtitle, p.hero-para {
 		width: 100%;
 		text-align: center;
+	}
+}
+
+@media all and (max-width: 320px) {
+	.misc-img {
+		height: 250px;
+		width: 250px;
+	}
+}
+
+@media (min-width: 321px) and (max-width: 375px) {
+	.misc-img {
+		height: 300px;
+		width: 300px;
 	}
 }
