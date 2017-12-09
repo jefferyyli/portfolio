@@ -245,10 +245,6 @@ a.projectPicBox {
     height: auto;
     margin-right: 2.8em;
 }
-	.projectPicBox:hover {
-		opacity: 0.6;
-		transition: .5s ease;
-	}
 
 a.email {
 	color: #5B95EB;
@@ -565,15 +561,63 @@ img.work-pic-white {
 	border-radius: 0.3em;
 	float: left;
 	margin-bottom: 1.8em;
+	opacity: 0;
+	animation: fadein ease-in 1;
+	animation-fill-mode: forwards;
+	animation-duration: 0.8s;
 }
 
 	.misc-img:hover {
-		opacity: 0.7;
 		transform: scale(1.05);
 		-webkit-transition: 0.6s ease;
 		-moz-transition: 0.6s ease;
 		transition: 0.6s ease;
 	}
+
+.overlay {
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+}
+	
+	.overlay:hover {
+		opacity: 1;
+		background: rgba(0,0,0,0.65);
+	}
+
+
+.hovertext {
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  text-align: center;
+  color: white;
+  font-size: 1.45em;
+  position: relative;
+  top: 45%;
+  left: 50%;
+  max-width: 90%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+.hoversubtext {
+  font-family: 'Nunito', sans-serif;
+  font-weight: 100;
+  text-align: center;
+  color: white;
+  font-size: 1em;
+  position: relative;
+  max-width: 92.5%;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
 
 .tags {
 	display: flex;
@@ -727,6 +771,13 @@ img.work-pic-white {
 	.hero-icons {
 		width: 100%;
 		justify-content: space-around;
+	}
+	.col-3 {
+	g	width: 100%;
+	}
+	.misc-img {
+		width: 350px;
+		height: 350px;
 	}
 	h1.hero-title, h3.hero-subtitle, p.hero-para {
 		width: 100%;
