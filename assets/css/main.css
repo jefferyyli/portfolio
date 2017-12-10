@@ -254,6 +254,16 @@ a.email {
 		opacity: 0.6;
 	}
 
+a.document {
+	font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    color: #5b95eb;
+}
+
+	a.document:hover {
+		opacity: 0.6;
+	}
+
 a.filter {
 	font-size: 0.95em;
     font-weight: 700;
