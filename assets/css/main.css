@@ -491,6 +491,14 @@ img.work-pic-white {
     background-position: center;
 }
 
+.break {
+	margin-top: 5em;
+    text-align: center;
+    font-family: "Lato";
+    font-weight: 100;
+    letter-spacing: 0.5em;
+}
+
 .col-3 {
 	float: left;
 	width: 30.8%;
