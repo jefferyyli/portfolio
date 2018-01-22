@@ -94,7 +94,7 @@ h3.work-title {
 }
 
 h4.GDprojectDate {
-    font-weight: 100;
+    font-weight: 300;
     color: #9A9A9A;
     margin-top: 0.3em;
     margin-bottom: 4em;
@@ -718,6 +718,25 @@ img.work-pic-white {
 
 .work-type {
 	width: 29%;
+}
+
+/* Photography */
+
+.row {
+	display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+
+.column {  
+	flex: 25%;
+	max-width: 25%;
+	padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
 }
 
 /* Animations */
