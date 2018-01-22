@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700,900');
-@import url('https://fonts.googleapis.com/css?family=Nunito:300,300i,400,400i,600,600i');
+@import url('https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900');
+@import url('https://fonts.googleapis.com/css?family=Nunito:100,300,300i,400,400i,600,600i');
 @import url('https://fonts.googleapis.com/css?family=Bitter:400,400i');
 
 /* Variables */
@@ -87,9 +87,10 @@ h3.construction-subtext {
 }
 
 h3.work-title {
-	font-size: 1.3em;
-	margin-bottom: 0;
-	margin-top: 0;
+	font-size: 1.6em;
+    font-weight: 700;
+    margin-bottom: 0;
+    margin-top: -10.95em;
 }
 
 h4.GDprojectDate {
@@ -108,11 +109,10 @@ h4.misc-subtitle {
 }
 
 h4.project-type {
-	font-family: "Nunito", sans-serif;
-	font-weight: 300;
-	font-size: .9em;
-	color: #BDBDBD;
-	font-weight: 400;
+    font-family: "Nunito", sans-serif;
+    font-size: .85em;
+    color: #9e9e9e;
+    font-weight: 100;
     margin-top: 0.5em;
     margin-bottom: 0em;
 }
@@ -169,7 +169,7 @@ p.GDprojectinfo {
 }
 
 p.hero-para {
-	width: 50%;
+	width: 65%;
 	opacity: 0;
 	animation: fadein ease-in 1;
 	animation-fill-mode: forwards;
@@ -195,7 +195,10 @@ p.GDinfo {
 }
 
 p.project-info {
-	font-size: 0.92em;
+	font-size: 0.94em;
+    width: 45%;
+    margin-top: 2.4em;
+    line-height: 1.6em;
 }
 
 p.proj-tags {
@@ -284,10 +287,42 @@ a.person {
 		background-color: #5B95EB;
 	}
 
+.home-button {
+    background: #5B95EB;
+    border-radius: 100em;
+    padding-left: 3em;
+    padding-right: 3em;
+    height: 2.8em;
+    width: 12em;
+    margin-top: 2em;
+    color: white;
+    text-decoration: none;
+    border: none;
+    font-weight: 300;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.4);
+    font-family: "Lato", sans-serif;
+    font-size: 0.8em;
+    cursor: pointer;
+}
+
+	.home-button:hover {
+		transform: translate(0, -10px);
+		transition: ease-in .2s;
+	    -o-transition: ease-in .2s;
+	    -moz-transition: ease-in .2s;
+	    -webkit-transition: ease-in .2s;
+	    background: #9ED0FF;
+	}
+
+a.button-link {
+	text-decoration: none;
+	cursor: pointer;
+}
+
 /* Nav */
 
 a.nav-link {
-	font-weight: 400;
+	font-weight: 300;
 	font-size: 0.9em;
 	color: #BDBDBD;
 	text-decoration: none;
@@ -298,7 +333,7 @@ a.nav-link {
 	}
 
 a.nav-link-l {
-	font-weight: 700;
+	font-weight: 300;
 	font-size: 0.9em;
 	letter-spacing: 0.4px;
 	color: #BDBDBD;
@@ -569,6 +604,21 @@ img.work-pic-white {
 		transition: .7s ease;
 	}
 
+.home-imgblock {
+	width: 100vw;
+    height: 325px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    overflow: hidden;
+    position: relative;
+	left: 50%;
+  	right: 50%;
+  	margin-left: -50vw;
+  	margin-right: -50vw;
+  	z-index: -100;
+}
+
 .misc-img {
 	height: 240px;
 	width: 240px;
@@ -644,6 +694,14 @@ img.work-pic-white {
     margin-top: 2.25em;
 }
 
+.work-block {
+	height: 325px;
+	opacity: 0;
+	animation: fadein ease-in 1;
+	animation-fill-mode: forwards;
+	animation-duration: 0.8s;
+}
+
 .work-container {
 	margin-top: 10em;
 	margin-bottom: 4.25em;
@@ -708,7 +766,7 @@ img.work-pic-white {
 
 @media (min-width: 769px) and (max-width: 1024px) {
 	p.hero-para {
-		width: 50%;
+		width: 65%;
 	}
 	img.work-img {
 		height: 325px;
