@@ -850,10 +850,6 @@ img.work-pic-white {
 	.banner {
 		height: 600px;
 	}
-	.grid {
-		display: inline-block;
-		margin-top: auto;
-	}
 	.navRight {
 		display: grid;
 		text-align: center;
@@ -882,14 +878,6 @@ img.work-pic-white {
 		width: 100%;
 		justify-content: space-around;
 	}
-	.col-3 {
-		width: 100%;
-		float: none;
-		padding-bottom: 0;
-	}
-	.misc-img {
-		padding-top: 100%;
-	}
 	h1.hero-title, h3.hero-subtitle, p.hero-para {
 		width: 100%;
 		text-align: center;
@@ -899,5 +887,21 @@ img.work-pic-white {
 @media all and (max-width: 375px) {
 	p.project-info {
 		width: 100%;
+	}
+}
+
+@media all and (max-width: 585px) {
+	.col-3 {
+		width: 100%;
+		float: none;
+		padding-bottom: 0;
+	}
+	.grid {
+		display: inline-block;
+		margin-top: auto;
+		width: 100%;
+	}
+	.misc-img {
+		padding-top: 100%;
 	}
 }
