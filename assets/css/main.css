@@ -336,13 +336,13 @@ a.nav-link-l {
 	font-weight: 300;
 	font-size: 0.9em;
 	letter-spacing: 0.4px;
-	color: #BDBDBD;
+	color: #5b95eb;
 	text-decoration: none;
 }
 
-	a.nav-link-l:hover {
+	/*a.nav-link-l:hover {
 		color: #5B95EB;
-	}
+	}*/
 
 nav {
 	display: flex;
@@ -359,12 +359,12 @@ nav.home-nav {
 }
 
 .navLeft {
-	width: 60%;
+	width: 55%;
 	float: left;
 }
 
 .navRight {
-    width: 40%;
+    width: 45%;
     display: flex;
     justify-content: space-between;
 }
@@ -714,6 +714,7 @@ img.work-pic-white {
 	display: flex;
 	justify-content: space-between;
 	margin-top: -1.8em;
+	margin-bottom: -1.8em;
 }
 
 .work-type {
