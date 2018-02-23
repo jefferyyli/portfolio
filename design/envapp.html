@@ -1,0 +1,84 @@
+<!DOCTYPE HTML>
+
+<html>
+	<head>
+		<title>Environmental App Design Challenge</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" type="text/css" href="../assets/css/main.css"/>
+		<link rel="stylesheet" type="text/css" href="../assets/css/zoom.css"/>
+	</head>
+
+	<body>
+		<div class="container">
+			
+			<!-- Navigation -->
+			
+			<nav>
+				<div class="navLeft">
+					<a href="../index.html" class="nav-link-l">Jeffery Li</a>
+				</div>
+				<div class="navRight">
+					<a href="../index.html" class="nav-link">work</a>
+					<a href="../misc/misc.html" class="nav-link">misc.</a>
+					<a href="../photography/photography.html" class="nav-link">photography</a>
+					<a href="../about.html" class="nav-link">about</a>
+				</div>
+			</nav>
+
+			<a href="#top" onclick="scrollToTop();return false"><button id="scrollToTop"><i class="arrow up"></i></button></a>
+
+		</div>
+
+		<div class="banner" style="background-image: url('../assets/images/design/envapp/envapp-banner.jpg'); background-color: #7fdd99"><body id="top"></div>
+
+		<div class="container">
+			<p class="proj-tags">UI Design</p>
+			<p>For this design challenge, we were tasked to create a new service that would help someone understand how their daily choices have an impact on their environment. This concept was designed in a span of three days.</p>
+			<h5 class="section-subtitle">Requirements</h4>
+			<p>For this challenge, we were given requirements for the mobile app:</p>
+			<ul>
+				<li>Make it easy for the user to log their information everyday to help them make more informed and sensible choices for their health and environment</li>
+				<li>The user must be able to assess their progress in a way that helps them understand their impact, and improve it moving forward</li>
+				<li>Find a way to retain the user and keep them interested</li>
+			</ul>
+
+			<h4 class="section-title">Concept</h4>
+			<p>I started off by researching various environmental problems people can tackle on a daily basis. Afterwards, I created a problem statement based on the design challenge that would help guide my research and design.</p>
+			<p class="quote">"How might we make an individual make well informed and sensible choices for the environment while at the same time, give them a way to take more visible and consistent action?"</p>
+			<p>The problem I am looking to tackle is reducing an individual’s carbon footprint by gradually assisting them in changing their preferred mode of transportation to an eco-friendlier choice. This app will automatically track the user’s carbon footprint of their commute by using a GPS (similar to Google Maps Timeline).</p>
+			<p>To motivate users in becoming more environmentally friendly, we must make it <strong>enjoyable</strong>, <strong>friendly</strong>, <strong>educational</strong>, and <strong>gradual.</strong></p>
+
+			<h5 class="section-subtitle">Activity</h5>
+			<p>To motivate people in becoming more environmentally friendly, making a service enjoyable was one way to retain user engagement. The user is able to engage in multiple activities in this app with others such as 'Competition' where the user can have a friendly competition with their colleagues or friends or 'Group Ride' which allows the user to create or find a group where people commute by bike together (and make some friends along the way!).</p>
+			<img class="work-pic-full" src="../assets/images/design/envapp/functions.png" data-action="zoom">
+			<h5 class="section-subtitle">Navigation</h5>
+			<p>Through research, Cognitive and Behavioural Scientists found that it is difficult for an individual to use an alternative mode of transportation because commuting habits are so fixed and automatic. To alleviate this problem, this app will send out suggestions via push notifications or in-app suggestions to gradually change their habits.</p>
+			<img class="work-pic-full" src="../assets/images/design/envapp/navigation.png" data-action="zoom">
+
+			<h5 class="section-subtitle">Motivation</h5>
+			<p>To motivate users to become more environmentally aware, the app must feel easy and personal. Information is automatically logged and tracked into the app where the users can view their stats via the ‘Stat’s tab in navigation. </p>
+			<p>To make environmental change more enjoyable, and for a user to take consistent action, the app will reward users with redeemable points and achievements. To further incentivize users, they can redeem points for a bicycle, maintenance, or repairs so they don’t have to spend as much money on environmentally friendly choices.</p>
+			<img class="work-pic-full" src="../assets/images/design/envapp/stats.png" data-action="zoom">
+
+
+			<!-- Footer -->
+
+			<footer>
+				<p class="footer-text">Want to chat? Contact me at <a href="mailto: jeffery.li@uwaterloo.ca" class="email" target=_blank>jeffery.li@uwaterloo.ca</a></p>
+			</footer>
+		</div>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<script src="../assets/js/zoom.js"></script>
+		<script src="../assets/js/transition.js"></script>
+		<script src=../assets/js/scrolltop.js></script>
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-109259214-1"></script>
+		<script>
+		  window.dataLayer = window.dataLayer || [];
+		  function gtag(){dataLayer.push(arguments);}
+		  gtag('js', new Date());
+
+		  gtag('config', 'UA-109259214-1');
+		</script>
+	</body>
+</html>
