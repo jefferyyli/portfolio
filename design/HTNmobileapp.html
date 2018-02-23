@@ -39,24 +39,33 @@
 
 			<!-- 2016 mobile app -->
 
-			<h4 class="section-title">Audit</h4>
-			<p>I started off this project by auditing the 2016 mobile app.</p>
-			<h5 class="section-subtitle">Sign-in Flow</h5>
-			<p>The old flow for signing into the account was inefficient as you had to click on the "Sign In" button, enter your hacker email, click on "Next", enter your password, and then click on "Log In". You can log in much faster if you are able to enter your email and password on one screen and then click on one button that says "Login".</p>
-			<img class="work-pic" src="../assets/images/design/HTN-mobile/2016login.png" alt="2016 Login Flow" data-action="zoom">
-			<p class="caption">2016 Sign-in Flow</p>
-			<h5 class="section-subtitle">Navigation</h5>
-			<p>I noticed that the navigation was inconsistent. There was both a navigation drawer and bottom navigation bar (this pattern could be used depending on the context but I didn't think that this was the right fit), and a tab navigation for only the mentorship feature of this app. I personally don't like navigation drawers as this pattern hides other features of apps. What was needed for the new app is a consistent navigation that would allow the user to easily navigate between features. The 2016 navigation did not work as the tab navigation in mentorship did not have a bottom navigation so the user is not able to jump between other features of the app in one click.</p>
-			<img class="work-pic" src="../assets/images/design/HTN-mobile/2016navigation.png" alt="2016 Navigation" data-action="zoom">
-			<p class="caption">2016 Navigation</p>
-			<h5 class="section-subtitle">Updates</h5>
-			<p>The home page of the mobile app consisted of live updates for the event. This feature of the app is useful as it allows us to update hackers on important information such as workshop or event times or locations, schedule changes or information on meal time. I thought that some posts were too text heavy (e.g. far left screen) which would make some posts a little harder to read. I also thought that the format for some posts such as workshops were hard to read as well because they were written in a long paragraph instead of them being listed. Anothing thing I noticed is that some posts had tags in them. You were not able to click on them and if you were able to, it should filter out posts based on the tag such as food updates, or workshop updates.</p>
-			<img class="work-pic" src="../assets/images/design/HTN-mobile/2016home.png" alt="2016 Home" data-action="zoom">
-			<p class="caption">2016 Updates</p>
+			<h4 class="section-title">2016 Mobile App Audit</h4>
+			<p>I started off this project by auditing the 2016 mobile app to see where what areas we can improve on in the 2017 redesign. Through auditing the previous year's mobile app, here were some ineffiencies and problems that I found by using the app:<p>
+			<ul>
+				<li><strong>Login page</strong></li>
+					<ul>
+						<li>The flow for logging in was inefficient as there were some unnecessary actions for logging in that could be removed</li>
+					</ul>
+				<li><strong>Navigation</strong></li>
+					<ul>
+						<li>The user was not able to navigate to other features of the app when they were on the 'Mentorship' screens</li>
+						<li>Inconsistent navigation throughout</li>
+						<li>Some navigation that hid some features of the app</li>
+					</ul>
+				<li><strong>Updates/Home</strong></li>
+					<ul>
+						<li>Some posts were text heavy and was kind of hard to read</li>
+						<li>Format of workshop posts were hard to read as they were written as a paragraph and not as a list, e.g. as a user I want to know where the workshop is and when and want to find this info quick and easy</li>
+						<li>Some posts had tags in them which were unclickable which didn't make them as useful as it could've been</li>
+					</ul>
+				<li><strong>Mentoring</strong></li>
+					<ul>
+						<li>Mentor requests were ordered from newest to oldest when the priority should've been the hackers waiting longer</li>
+						<li>No way to communicate between hacker and mentor; it was harder to find the hacker as the only way to find them is through inputing where they were currently at the time of the request</li>
+						<li>It would be great if a user could filter a request by language/framework, or type of request (e.g. design, hardware)</li>
+					</ul>
+			</ul>
 			<h5 class="section-subtitle">Mentoring</h5>
-			<p>One great feature of the app is being able to request mentorship from other hackers or sponsors. If a hacker is having problems with their hack and needs assistance, they are able to request for help. When you request for help, there is a field for putting in your location. This is not a good idea because some hackers could be very vague about their location or they may not even be there when the mentor comes to help. There needs be a way for the hacker to communicate with the mentor when they need to find each other.</p>
-			<img class="work-pic" src="../assets/images/design/HTN-mobile/2016mentorflow.png" alt="2016 Mentor flow" data-action="zoom">
-			<p class="caption">2016 Mentoring</p>
 			<p>Based on some feedback from last year, these are the main paint points of last year's mentoring feature:</p>
 				<ul>
 					<li>Mentors had difficulty finding hackers with just the "location" field specified in the app</li>
@@ -68,9 +77,6 @@
 							<li>No clear place to find mentors if app didn't work, many hackers requested help from organizers</li>
 						</ul>
 				</ul>
-			<img class="work-pic" src="../assets/images/design/HTN-mobile/2016mentor.png" alt="2016 Mentor flow" data-action="zoom">
-			<p class="caption">2016 Mentor Requests Screens</p>
-			<p>One of the biggest problems with the mentor request section is that requests are ordered from newest to oldest. Request should be ordered from oldest to newest as the older requests should be prioritized since the hackers have been waiting for much longer. It would also be great if mentors can filter requests by language, framework, or type of request (e.g. design, hardware, code).</p>
 
 			<!-- Wireframes -->
 
@@ -80,7 +86,7 @@
 			<img class="work-pic" src="../assets/images/design/HTN-mobile/lowfi.png" alt="Low fi mockups" data-action="zoom">
 			<p class="caption">Low-Fi mockups of Mentoring and Profile</p>
 			<h5 class="section-subtitle">High-fidelity Iterations</h5>
-			<p>Based on feedback I received from the design and mobile team, I reiterated the high-fidelity mockups multiple times. Some screens did not make it to the final design such as the FAQ and Sponsors screen.</p>
+			<p>Based on feedback I received from the design and mobile team, I reiterated the high-fidelity mockups multiple times. Unfortunately, some screens did not make it to the final design.</p>
 			<img class="work-pic-full" src="../assets/images/design/HTN-mobile//processscreens.png" alt="Iterations" data-action="zoom">
 			<p class="caption">Multiple reiterations of my screens</p>
 
@@ -88,7 +94,8 @@
 
 			<h4 class="section-title">Final Design</h4>
 			<h5 class="section-subtitle-s">Style Guide &amp; Components</h5>
-			<p>Every year at Hack the North, we change the branding of our organization slightly such as the typefaces we use on our website. I followed the style guide and customized it as well for the mobile app. Below are the colours, typefaces, navigation, and components I used in designing the mobile app. Note: The colours, navigation and some components did not make it to the fully developed mobile app.</p>
+			<p>Every year at Hack the North, we change the branding of our organization slightly such as the typefaces we use on our website. I followed the style guide and customized it as well for the mobile app. Below are the colours, typefaces, navigation, and components I used in designing the mobile app.</p>
+			<p><i>Note: The colours, navigation and some components did not make it to the fully developed mobile app.</i></p>
 			<img class="work-pic-full" src="../assets/images/design/HTN-mobile/components.png" alt="Components and style guide">
 			<p class="caption">Colors, fonts, and components of the 2017 HTN Mobile App</p>
 			<h5 class="section-subtitle">Login</h5>
