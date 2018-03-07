@@ -70,7 +70,7 @@ h3.hero-subtitle {
 	font-weight: 700;
 	font-size: 1.5em;
 	margin-top: 0.1em;
-    margin-bottom: 2.5em;
+    margin-bottom: 2em;
 	color: #5B95EB;
     opacity: 0;
 	animation: fadein ease-in 1;
@@ -336,13 +336,13 @@ a.nav-link-l {
 	font-weight: 300;
 	font-size: 0.9em;
 	letter-spacing: 0.4px;
-	color: #5b95eb;
+	color: #BDBDBD;
 	text-decoration: none;
 }
 
-	/*a.nav-link-l:hover {
+	a.nav-link-l:hover {
 		color: #5B95EB;
-	}*/
+	}
 
 nav {
 	display: flex;
@@ -370,11 +370,21 @@ nav.home-nav {
 }
 
 i.fa-lg {
-	font-size: 1.4em;
+	font-size: 1.3em;
 	color: #5B95EB;
 }
 
+i.fa-lg2 {
+	font-size: 1.15em;
+	color: #5B95EB;
+	transform: translate(0, 3px);
+}
+
 	i.fa-lg:hover {
+		opacity: 0.6;
+	}
+
+	i.fa-lg2:hover {
 		opacity: 0.6;
 	}
 
@@ -570,7 +580,7 @@ img.work-pic-white {
 }
 
 .hero-icons {
-	margin-top: 4.5em;
+	margin-top: 4em;
 	display: flex;
     width: 27%;
     justify-content: space-between;
@@ -697,7 +707,7 @@ img.work-pic-white {
 
 .work-container {
 	margin-top: 8em;
-	margin-bottom: 4.25em;
+	margin-bottom: 4em;
 	opacity: 0;
 	animation: fadein ease-in 1;
 	animation-fill-mode: forwards;
