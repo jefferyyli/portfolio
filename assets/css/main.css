@@ -54,6 +54,13 @@ h2.misc-title {
     margin-bottom: 0;
 }
 
+h2.about {
+	font-size: 1.5em;
+    color: #424242;
+    margin-top: 0;
+    margin-bottom: 1em;
+}
+
 h3.GDsubtitle {
 	font-weight: 600;
     color: #414141;
@@ -506,24 +513,21 @@ img.work-pic-white {
 /* Divs */
 
 .about-left {
-	background-image: url('../../assets/images/me.jpg');
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: center 55%;
-	overflow: hidden;
-	border-radius: 0.3em;
-	width: 30%;
-	height: 235px;
+	width: 36%;
 }
 
 .about-right {
-	width: 66.5%;
+	width: 60%;
 }
 
 .about-sect {
 	display: flex;
 	justify-content: space-between;
-	margin-top: 2.25em;
+	margin-top: 5em;
+}
+
+.about-img {
+	width: 280px
 }
 
 .banner {
