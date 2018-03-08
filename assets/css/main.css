@@ -387,6 +387,11 @@ i.fa-lg2 {
 	transform: translate(0, 3px);
 }
 
+i.fa-md {
+	font-size: 1em;
+	color: #5B95EB;
+}
+
 	i.fa-lg:hover {
 		opacity: 0.6;
 	}
