@@ -336,6 +336,36 @@ a.button-link {
 
 /* Gallery */
 
+.lightbox {
+	/** Default lightbox to hidden */
+	display: none;
+
+	/** Position and style */
+	position: fixed;
+	z-index: 999;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	top: 0;
+	left: 0;
+	background: rgba(0,0,0,0.8);
+}
+
+.lightbox img {
+	/** Pad the lightbox image */
+	width: auto;
+	max-height: 92.5%;
+	margin: 2.5% auto;
+}
+
+.lightbox:target {
+	/** Remove default browser outline */
+	outline: none;
+
+	/** Unhide lightbox **/
+	display: block;
+}
+
 .gallery {
 	padding: 0 6px;
     float: left;
@@ -346,6 +376,7 @@ a.button-link {
 	width: 100%;
 	height: auto;
 	display: block;
+	position: relative;
 }
 
 .gallery-container {
@@ -363,20 +394,21 @@ a.button-link {
 	margin-bottom: 1em;
 }
 
+	.gal-img:hover {
+		opacity: 0.6;
+	}
+
 #lostintime {
-    background-image: url('../images/photography/lostintime.jpg');
-    background-position: center 62%;
+    top: -200px;
 }
 
 
 #fdr {
-    background-image: url('../images/photography/fdr.jpg');
-    background-position: center 45%;
+    top: -150px;
 }
 
 #vivian {
-    background-image: url('../images/photography/vivian.jpg');
-    background-position: center 60%;
+    top: -185px;
 }
 
 #sarah {
@@ -384,14 +416,8 @@ a.button-link {
     background-position: center 50%;
 }
 
-#timesfoot {
-    background-image: url('../images/photography/timesfoot.jpg');
-    background-position: center 55%;
-}
-
 #tobermory {
-    background-image: url('../images/photography/tobermory.jpg');
-    background-position: center 62%;
+    top: -220px;
 }
 
 #goldengate {
@@ -400,9 +426,7 @@ a.button-link {
 }
 
 #lookup {
-    background-image: url('../images/photography/lookup.jpg');
-    background-position: center 50%;
-    top: 500px;
+    top: -150px;
 }
 
 #lookdown {
@@ -431,8 +455,7 @@ a.button-link {
 }
 
 #paces2 {
-    background-image: url('../images/photography/paces2.jpg');
-    background-position: center 65%;
+    top: -200px;
 }
 
 #manhattan {
@@ -451,13 +474,11 @@ a.button-link {
 }
 
 #aura {
-    background-image: url('../images/photography/aura.jpg');
-    background-position: center 75%;
+    top: -200px;
 }
 
 #aurafeet {
-    background-image: url('../images/photography/aurafeet.jpg');
-    background-position: center 25%;
+    top: -30px;
 }
 
 #cherryblossom {
@@ -1126,6 +1147,11 @@ img.work-pic-white {
 	h1.hero-title, h3.hero-subtitle, p.hero-para {
 		width: 100%;
 		text-align: center;
+	}
+	.lightbox img {
+		width: 90%;
+		height: auto;
+		margin: 42.5% auto;
 	}
 }
 
