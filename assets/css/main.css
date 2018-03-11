@@ -348,14 +348,14 @@ a.button-link {
 	text-align: center;
 	top: 0;
 	left: 0;
-	background: rgba(0,0,0,0.8);
+	background: rgba(250,250,250,0.9);
 }
 
 .lightbox img {
 	/** Pad the lightbox image */
 	width: auto;
-	max-height: 92.5%;
-	margin: 2.5% auto;
+	max-height: 83.5%;
+	margin: 5.5% auto;
 }
 
 .lightbox:target {
@@ -415,11 +415,6 @@ a.button-link {
     top: -220px;
 }
 
-#goldengate {
-    background-image: url('../images/photography/goldengate.jpg');
-    background-position: center 50%;
-}
-
 #lookup {
     top: -150px;
 }
@@ -429,13 +424,7 @@ a.button-link {
 }
 
 #yellowcab {
-    background-image: url('../images/photography/yellowcab.jpg');
-    background-position: center 82%;
-}
-
-#toronto2 {
-    background-image: url('../images/photography/toronto2.jpg');
-    background-position: center 50%;
+    top: -300px;
 }
 
 #christyblossom {
@@ -448,8 +437,7 @@ a.button-link {
 }
 
 #manhattan {
-    background-image: url('../images/photography/manhattan.jpg');
-    background-position: center 45%;
+    top: -180px;
 }
 
 #bell {
@@ -470,8 +458,7 @@ a.button-link {
 }
 
 #cherryblossom {
-    background-image: url('../images/photography/flowers.jpg');
-    background-position: center;
+    top: -100px;
 }
 
 #paces {
@@ -479,33 +466,23 @@ a.button-link {
 }
 
 #vivian2 {
-    background-image: url('../images/photography/vivian2.jpg');
-    background-position: center;
+    top: -180px;
 }
 
 #lookdown2 {
-    background-image: url('../images/photography/lookdown2.jpg');
-    background-position: center;
+    top: -170px;
 }
 
 #nycshore {
-    background-image: url('../images/photography/nycshore.jpg');
-    background-position: center 60%;
-}
-
-#toronto3 {
-    background-image: url('../images/photography/toronto3.jpg');
-    background-position: center 50%;
+    top: -200px;
 }
 
 #oculus {
-    background-image: url('../images/photography/oculus.jpg');
-    background-position: center 85%;
+    top: -330px;
 }
 
 #brooklyn {
-    background-image: url('../images/photography/brooklyn.jpg');
-    background-position: center 30%;
+    top: -170px;
 }
 
 #sarah {
@@ -517,28 +494,23 @@ a.button-link {
 }
 
 #muroof{
-    background-image: url('../images/photography/muroof.jpg');
-    background-position: center 40%;
+    top: -200px;
 }
 
 #lookup2 {
-    background-image: url('../images/photography/lookup2.jpg');
-    background-position: center 40%;
+    top: -130px;
 }
 
 #tobermory2 {
-    background-image: url('../images/photography/tobermory2.jpg');
-    background-position: center 10%;
+    top: -50px;
 }
 
 #sfcity {
-    background-image: url('../images/photography/sfcity.jpg');
-    background-position: center 75%;
+    top: -200px;
 }
 
 #wloofog {
-    background-image: url('../images/photography/wloofog.jpg');
-    background-position: center 70%;
+    top: -100px;
 }
 
 
