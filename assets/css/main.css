@@ -354,8 +354,8 @@ a.button-link {
 .lightbox img {
 	/** Pad the lightbox image */
 	width: auto;
-	max-height: 83.5%;
-	margin: 5.5% auto;
+	max-height: 90%;
+	margin: 2.5% auto;
 }
 
 .lightbox:target {
