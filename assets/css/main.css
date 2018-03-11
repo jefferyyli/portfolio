@@ -408,12 +408,7 @@ a.button-link {
 }
 
 #vivian {
-    top: -185px;
-}
-
-#sarah {
-    background-image: url('../images/photography/sarah.jpg');
-    background-position: center 50%;
+    top: -205px;
 }
 
 #tobermory {
@@ -430,8 +425,7 @@ a.button-link {
 }
 
 #lookdown {
-    background-image: url('../images/photography/lookdown.jpg');
-    background-position: center 50%;
+    top: -165px;
 }
 
 #yellowcab {
@@ -446,11 +440,6 @@ a.button-link {
 
 #christyblossom {
     background-image: url('../images/photography/christyblossom.jpg');
-    background-position: center 50%;
-}
-
-#brooklyn-sunset {
-    background-image: url('../images/photography/brooklynsunset.jpg');
     background-position: center 50%;
 }
 
@@ -469,8 +458,7 @@ a.button-link {
 }
 
 #street {
-    background-image: url('../images/photography/street.jpg');
-    background-position: center 75%;
+    top: -250px;
 }
 
 #aura {
@@ -487,8 +475,7 @@ a.button-link {
 }
 
 #paces {
-    background-image: url('../images/photography/paces.jpg');
-    background-position: center;
+    top: -130px;
 }
 
 #vivian2 {
@@ -516,19 +503,17 @@ a.button-link {
     background-position: center 85%;
 }
 
-#times-square {
-    background-image: url('../images/photography/times-square.jpg');
-    background-position: center;
-}
-
 #brooklyn {
     background-image: url('../images/photography/brooklyn.jpg');
     background-position: center 30%;
 }
 
+#sarah {
+	top: -180px;
+}
+
 #sarah2 {
-    background-image: url('../images/photography/sarah2.jpg');
-    background-position: center 40%;
+    top: -135px;
 }
 
 #muroof{
