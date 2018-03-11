@@ -13,6 +13,10 @@ body {
 	margin: 0;
 }
 
+* {
+	box-sizing: border-box;;
+}
+
 /* Type */
 
 h1, h2, h3, h4, h5 {
@@ -113,6 +117,10 @@ h4.misc-subtitle {
 	font-weight: 300;
 	font-size: 0.9em;
 	margin-top: 0.8em;
+}
+
+#photog-subtext {
+	width: 60%;
 }
 
 h4.project-type {
@@ -325,6 +333,208 @@ a.button-link {
 	text-decoration: none;
 	cursor: pointer;
 }
+
+/* Gallery */
+
+.gallery {
+	padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+}
+
+.photog-img {
+	width: 100%;
+	height: auto;
+	display: block;
+}
+
+.gallery-container {
+	margin: 2.5em 0.5em 4em 0.5em;
+}
+
+.gal-img {
+	width: 100%;
+    height: auto;
+    overflow: hidden;
+    height: 265px;
+    background-repeat: no-repeat;
+	background-size: cover;
+	overflow: hidden;
+	margin-bottom: 1em;
+}
+
+#lostintime {
+    background-image: url('../images/photography/lostintime.jpg');
+    background-position: center 62%;
+}
+
+
+#fdr {
+    background-image: url('../images/photography/fdr.jpg');
+    background-position: center 45%;
+}
+
+#vivian {
+    background-image: url('../images/photography/vivian.jpg');
+    background-position: center 60%;
+}
+
+#sarah {
+    background-image: url('../images/photography/sarah.jpg');
+    background-position: center 50%;
+}
+
+#timesfoot {
+    background-image: url('../images/photography/timesfoot.jpg');
+    background-position: center 55%;
+}
+
+#tobermory {
+    background-image: url('../images/photography/tobermory.jpg');
+    background-position: center 62%;
+}
+
+#goldengate {
+    background-image: url('../images/photography/goldengate.jpg');
+    background-position: center 50%;
+}
+
+#lookup {
+    background-image: url('../images/photography/lookup.jpg');
+    background-position: center 50%;
+    top: 500px;
+}
+
+#lookdown {
+    background-image: url('../images/photography/lookdown.jpg');
+    background-position: center 50%;
+}
+
+#yellowcab {
+    background-image: url('../images/photography/yellowcab.jpg');
+    background-position: center 82%;
+}
+
+#toronto2 {
+    background-image: url('../images/photography/toronto2.jpg');
+    background-position: center 50%;
+}
+
+#christyblossom {
+    background-image: url('../images/photography/christyblossom.jpg');
+    background-position: center 50%;
+}
+
+#brooklyn-sunset {
+    background-image: url('../images/photography/brooklynsunset.jpg');
+    background-position: center 50%;
+}
+
+#paces2 {
+    background-image: url('../images/photography/paces2.jpg');
+    background-position: center 65%;
+}
+
+#manhattan {
+    background-image: url('../images/photography/manhattan.jpg');
+    background-position: center 45%;
+}
+
+#bell {
+    background-image: url('../images/photography/bell.jpg');
+    background-position: center 45%;
+}
+
+#street {
+    background-image: url('../images/photography/street.jpg');
+    background-position: center 75%;
+}
+
+#aura {
+    background-image: url('../images/photography/aura.jpg');
+    background-position: center 75%;
+}
+
+#aurafeet {
+    background-image: url('../images/photography/aurafeet.jpg');
+    background-position: center 25%;
+}
+
+#cherryblossom {
+    background-image: url('../images/photography/flowers.jpg');
+    background-position: center;
+}
+
+#paces {
+    background-image: url('../images/photography/paces.jpg');
+    background-position: center;
+}
+
+#vivian2 {
+    background-image: url('../images/photography/vivian2.jpg');
+    background-position: center;
+}
+
+#lookdown2 {
+    background-image: url('../images/photography/lookdown2.jpg');
+    background-position: center;
+}
+
+#nycshore {
+    background-image: url('../images/photography/nycshore.jpg');
+    background-position: center 60%;
+}
+
+#toronto3 {
+    background-image: url('../images/photography/toronto3.jpg');
+    background-position: center 50%;
+}
+
+#oculus {
+    background-image: url('../images/photography/oculus.jpg');
+    background-position: center 85%;
+}
+
+#times-square {
+    background-image: url('../images/photography/times-square.jpg');
+    background-position: center;
+}
+
+#brooklyn {
+    background-image: url('../images/photography/brooklyn.jpg');
+    background-position: center 30%;
+}
+
+#sarah2 {
+    background-image: url('../images/photography/sarah2.jpg');
+    background-position: center 40%;
+}
+
+#muroof{
+    background-image: url('../images/photography/muroof.jpg');
+    background-position: center 40%;
+}
+
+#lookup2 {
+    background-image: url('../images/photography/lookup2.jpg');
+    background-position: center 40%;
+}
+
+#tobermory2 {
+    background-image: url('../images/photography/tobermory2.jpg');
+    background-position: center 10%;
+}
+
+#sfcity {
+    background-image: url('../images/photography/sfcity.jpg');
+    background-position: center 75%;
+}
+
+#wloofog {
+    background-image: url('../images/photography/wloofog.jpg');
+    background-position: center 70%;
+}
+
 
 /* Nav */
 
@@ -567,8 +777,8 @@ img.work-pic-white {
 	display: block;
 	max-width: 775px;
 	padding-top: 15px;
-	padding-left: 250px;
-	padding-right: 250px;
+/*	padding-left: 250px;
+	padding-right: 250px;*/
 	padding-bottom: 5px;
 	margin: auto;
 }
@@ -810,6 +1020,9 @@ img.work-pic-white {
 		padding-right: 0;
 		margin: auto 128px auto 128px;
 	}
+	.gallery {
+		width: 49.9999%;
+	}
 	.home-imgblock {
 		background-position: 57.25%;
 	}
@@ -823,6 +1036,9 @@ img.work-pic-white {
 	}
 	.work {
 		display: block;
+	}
+	.gallery {
+		width: 49.9999%;
 	}
 	.homecontainer {
 		width: 100%;
@@ -840,6 +1056,15 @@ img.work-pic-white {
 
 @media all and (max-width: 768px) {
 	h2.GDtitle, p.GDprojectinfo {
+		width: 100%;
+	}
+}
+
+@media all and (max-width: 620px) {
+	.gallery {
+		width: 100%;
+	}
+	#photog-subtext {
 		width: 100%;
 	}
 }
@@ -925,3 +1150,4 @@ img.work-pic-white {
 		padding-top: 100%;
 	}
 }
+
